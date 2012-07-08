@@ -15,6 +15,7 @@ end
 
 depends "openssl"
 depends "windows"
+depends "iptables"
 
 attribute "mysql/server_root_password",
   :display_name => "MySQL Server Root Password",
