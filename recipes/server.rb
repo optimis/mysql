@@ -190,5 +190,3 @@ else
     end
   end
 end
-
-iptables_rule "mysql"
