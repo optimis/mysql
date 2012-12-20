@@ -171,7 +171,7 @@ else
       source "grants.sql.erb"
       owner "root" unless platform? 'windows'
       group node['mysql']['root_group'] unless platform? 'windows'
-      mode "0600"
+      mode "0644"
       action :create
     end
   end
